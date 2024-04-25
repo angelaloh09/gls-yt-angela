@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/gls-yt-angela/precache-manifest.b763846c0eacb58edd277ad8236e5958.js"
+  "/gls-yt-angela/precache-manifest.22408dda8f1f3e4e01e83012544b0496.js"
 );
 
 self.addEventListener('message', (event) => {
