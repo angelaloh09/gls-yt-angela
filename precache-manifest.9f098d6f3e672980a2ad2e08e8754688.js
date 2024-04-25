@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bdfcb5c3ad6f00745c813ec003176bb1",
+    "revision": "8d77c04412775bfcf4f33a4e1498ac0e",
     "url": "/gls-yt-angela/index.html"
   },
   {
-    "revision": "43e7cbda312be10daf35",
-    "url": "/gls-yt-angela/static/css/main.532bd78a.chunk.css"
+    "revision": "3f2d761248cd286392a3",
+    "url": "/gls-yt-angela/static/css/main.6938b34a.chunk.css"
   },
   {
     "revision": "68805690b12e8d634dc3",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/gls-yt-angela/static/js/2.c69838cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "43e7cbda312be10daf35",
+    "revision": "3f2d761248cd286392a3",
     "url": "/gls-yt-angela/static/js/main.4e9646c3.chunk.js"
   },
   {
