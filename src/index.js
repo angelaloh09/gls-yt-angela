@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router,Routes,Route } from 'react-router-dom';
+import { HashRouter as Router,Routes,Route } from 'react-router-dom';
 import Bookshelf from './components/Bookshelf';
 import Thoughts from './components/Thoughts';
 import Home from './components/Home';
@@ -20,3 +20,5 @@ ReactDOM.render(
 
   document.getElementById('root')
 );
+
+
