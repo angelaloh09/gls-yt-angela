@@ -131,7 +131,7 @@
     
     .home__content nav li a{
         text-decoration: none;
-        color: var(--main-black);
+        color: var(--idea-grey);
         font-size: 15px;
         font-family: Righteous;
     }
@@ -150,6 +150,10 @@
     .home__img {
         margin-top:20%;
         width: 220px;
+    }
+    .home__content nav li a{
+        text-decoration: none;
+        color: var(--idea-grey);
     }
     /* .home__content .small__p {
         font-size: 8px;
