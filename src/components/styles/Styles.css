@@ -1,0 +1,69 @@
+.ideas {
+  width: 100%;
+  min-height: 100vh;
+  background: var(--img-back);
+  position: relative;
+  overflow: hidden;
+}
+
+.bookshelf {
+  margin-left: auto;
+  margin-right: auto; 
+  max-width: min(800px, 90%);
+  margin-bottom: 50px;
+}
+
+
+
+.cards {
+  padding-top: 1%;
+  /* margin-left: 23rem; */
+}
+
+
+.cards h1 {
+  color: var(--main-purple);
+  font-family: Righteous;
+  font-size: 50px;
+  font-weight:lighter;
+  /* text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 7px; */
+  /* text-decoration-color: var(--idea-grey-underline); */
+  margin-top:3rem;
+}
+
+.cards h3 pre, span, a {
+  font-family: Monaco;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.LinkListItem{
+  margin-bottom: 30px; 
+  margin-left: 15px;
+}
+
+.standardized-spacing {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+@media (min-width:900px) {
+  .ideas__container {
+      display: grid;
+      margin-block: 1rem;
+      grid-template-columns: repeat(auto-fit,minmax(35rem,1fr));
+      gap: 1rem;
+  }
+}
+
+@media (max-width:900px) {
+  .ideas__container {
+      padding:20px;
+      gap:2rem;
+  }
+  .cards {
+      margin-block: 1rem;
+  }
+}

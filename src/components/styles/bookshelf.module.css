@@ -1,0 +1,35 @@
+.GridContainer {
+  display: grid;
+  grid-template-columns: 14% 66% 20%;
+  color: var(--idea-grey);
+  border-bottom: 0.5px solid #a2a2a2;
+  align-items: end;
+  width: 100%;
+  justify-items: left;
+  margin-bottom: 2%;
+  text-decoration:none;
+}
+
+.GridContainer:hover{
+  cursor: pointer;
+  color: var(--main-purple);
+} 
+
+.Writing{
+  font-family: Monaco;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--idea-grey);
+}
+
+.Writing ol, .Writing ul {
+  padding-left: 5%;
+}
+
+.Writing p {
+  /* padding-left: 1%; */
+  margin-bottom: 20px; /* Add extra space below each paragraph */
+}
+
+
+

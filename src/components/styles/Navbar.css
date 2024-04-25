@@ -1,0 +1,116 @@
+.home__icon h1{
+    font-size:30px;
+    color: var(--main-orange);
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.home__icon h1:hover{
+    text-decoration: underline;
+    text-decoration-color: var(--main-orange);
+}
+
+@media (min-width: 50em) {
+    .navbar ul {
+        margin: 0 -10px;
+        border-bottom: 1px solid var(--nav-border);
+        align-items: center;
+    }
+    nav li {
+        margin: 0 20px;
+    }
+    .home__icon {
+        margin-right: auto;
+    } 
+}
+
+@media (min-width:50em) {
+    .list__items {
+        display: flex;
+        padding-inline: 2rem;
+        padding-block: 1.5rem;
+        gap: 3rem;
+        list-style: none;
+        background: var(--blur);
+        backdrop-filter: blur(.3rem);
+        margin: 0;
+    }
+
+    .menu_icon {
+        display: none;
+    }
+
+    .close_icon{
+        display: none;
+    }
+
+
+}
+
+.list__items li a {
+    text-decoration: none;
+    color: var(--idea-grey);
+    font-size: 17px;
+    font-family: Righteous;
+}
+
+.nav__links{
+    margin-left: 10rem;
+    flex:auto;
+}
+
+.list__items li a:hover {
+    text-decoration: underline;
+}
+
+/* @media (width: 50em){
+
+} */
+
+@media (max-width:50em) {
+    .navbar {
+        display: flex;
+    }
+    .list__items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        position: fixed;
+        inset: 0 0 0 0%;
+
+        gap: 1.5rem;
+        list-style: none;        
+
+        background-color: var(--img-back);
+        border: 1px solid var(--nav-border);
+
+        transform: translateY(100%);
+        transition: 400ms;
+    }
+
+    .list__items.active {
+        transform: translateX(0);
+        transition: 450ms;
+    }
+
+    .menu_icon {
+        position: absolute;
+        right: 2rem;
+        top: 1.5rem;
+        color: var(--main-black);
+        cursor: pointer;
+    }
+
+    .menu_icon .menu {
+        font-size: 40px;
+    }
+    .close_icon {
+        color: var(--main-black);
+        cursor: pointer;
+        position: fixed;
+        top: 2rem;
+        right: 2rem;
+    }
+}
