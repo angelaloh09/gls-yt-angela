@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "543cc56e80153bd2f098d7bd7b22867b",
+    "revision": "bdfcb5c3ad6f00745c813ec003176bb1",
     "url": "/gls-yt-angela/index.html"
   },
   {
-    "revision": "c499fa2bcb745ae4917e",
+    "revision": "43e7cbda312be10daf35",
     "url": "/gls-yt-angela/static/css/main.532bd78a.chunk.css"
   },
   {
-    "revision": "134a65dc01279ff52eb3",
-    "url": "/gls-yt-angela/static/js/2.79c6dbbb.chunk.js"
+    "revision": "68805690b12e8d634dc3",
+    "url": "/gls-yt-angela/static/js/2.c69838cc.chunk.js"
   },
   {
     "revision": "22b6b7433aa4c411f8dae3fa4da162af",
-    "url": "/gls-yt-angela/static/js/2.79c6dbbb.chunk.js.LICENSE.txt"
+    "url": "/gls-yt-angela/static/js/2.c69838cc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c499fa2bcb745ae4917e",
-    "url": "/gls-yt-angela/static/js/main.2570f0c1.chunk.js"
+    "revision": "43e7cbda312be10daf35",
+    "url": "/gls-yt-angela/static/js/main.4e9646c3.chunk.js"
   },
   {
     "revision": "6cc01f11cfc9da06ed23",
