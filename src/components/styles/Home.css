@@ -115,8 +115,6 @@
         padding:30px;
     }
     .content__header {
-        margin-left: 1rem;
-        font-size: 40px;
         color: var(--main-orange);
         padding-bottom: 6px;
     }

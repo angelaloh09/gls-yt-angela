@@ -1,3 +1,14 @@
+4.25.2024: 
+Changes Made: 
+- Able to deploy website with a github URL. Debugged issue where the wrong index file was being build & deployed. 
+- Fixed the different text colors for nav bar. 
+- Got started with getting a custom domain name linked. 
+
+Next Time: 
+- Get custom domain name up and running! 
+- Finish adding book report for Climate Disaster
+- Figure out why nav bar transition covers entire screen. 
+
 4.23.2024: 
 Changes Made: 
 - Made sure that the nav bar elements align for smaller windows. 

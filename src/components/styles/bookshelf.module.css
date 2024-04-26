@@ -1,6 +1,7 @@
 .GridContainer {
   display: grid;
-  grid-template-columns: 14% 66% 20%;
+  grid-template-columns: 15% 67% 18%;
+  grid-column-gap: 5px;
   color: var(--idea-grey);
   border-bottom: 0.5px solid #a2a2a2;
   align-items: end;
