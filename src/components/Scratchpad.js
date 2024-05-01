@@ -22,15 +22,19 @@ const Scratchpad = () => {
                 <div>
                     <ul>
                         <li className={styles.GridContainer}>
-                            <span>Art</span>
+                            <span>Music</span>
+                            <a className={styles.Link} href= "https://open.spotify.com/album/02PXepuNHYKvGnXYy03oCp?autoplay=true" target= "_blank" rel="noopener noreferrer"> Bloom by Beach House </a>
+                        </li>
+                        <li className={styles.GridContainer}>
+                            <span>Painting</span>
                             <a className={styles.Link} href="https://www.per-adolfsen.com/works/lava" target="_blank" rel="noopener noreferrer"> Lava by Per Adolfsen</a>
                         </li>
                         <li className={styles.GridContainer}>
-                            <span>Art</span>
+                            <span>Painting</span>
                             <a className={styles.Link} href="http://www.magipuig.es/" target="_blank"rel="noopener noreferrer" > Magí Puig Artwork</a>
                             </li>
                         <li className={styles.GridContainer}>
-                            <span>Art</span>
+                            <span>Music</span>
                             <a className={styles.Link} href="https://www.vanityfair.com/video/watch/how-hans-zimmer-created-the-score-for-dune-part-two" target="_blank" rel= "noopener noreferrer"> Hans Zimmer Creating Dune 2 Score</a>
                         </li>
                     </ul>

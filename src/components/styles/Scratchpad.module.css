@@ -1,7 +1,7 @@
 .GridContainer {
   display: grid;
   grid-template-columns: 20% 80%;
-  border-bottom: 0.5px solid #a2a2a2;
+  border-bottom: 0.5px dotted var(--idea-grey-underline);
   align-items: end;
   width: 100%;
   justify-items: left;

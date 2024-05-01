@@ -14,10 +14,8 @@
 }
 
 
-
 .cards {
   padding-top: 1%;
-  /* margin-left: 23rem; */
 }
 
 
@@ -26,17 +24,13 @@
   font-family: Righteous;
   font-size: 50px;
   font-weight:lighter;
-  /* text-decoration: underline;
-  text-decoration-thickness: 1px;
-  text-underline-offset: 7px; */
-  /* text-decoration-color: var(--idea-grey-underline); */
   margin-top:3rem;
 }
 
 .cards h3 pre, span, a {
-  font-family: Monaco;
+  font-family: Poppins;
   font-weight: 100;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .LinkListItem{

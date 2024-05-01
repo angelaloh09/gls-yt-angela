@@ -92,6 +92,34 @@ const HowToAvoidAClimateDisaster = () => {
                   3/ THE BIG FIVE PILLARS
                   </h2>
                   <h3>3.1/ ELECTRICITY</h3>
+                  <h4>1/ Non Carbon-Free Energy Sources</h4>
+                  <h5>Hydropower</h5>
+                  <p>
+                      Hydropower: One of our early major sources of electricity was water (in the form of hydropower). Relatively cheap, but has some major downsides: [69]
+                      <ul>
+                          <li>Making a reservoir displaces local communities and wildlife.</li>
+                          <li>When you cover land with water, if there’s a lot of carbon in the soil, the carbon eventually turns into methane and escapes into the atmosphere. Studies show that
+                          depending on where it’s built, a dam can actually be a worse emitter than coal for 50 - 100 years before it makes up for all the methane it’s responsible for.
+                          </li>
+                          <li>Amount of electricity generated from a dam depends on the season, because you’re relying on rain-fed streams and rivers.</li>
+                          <li>Hydropower is immobile. You have to build dams where the rivers are.</li>
+                      </ul>
+                  </p>
+                  <p>
+                  Over time, electricity has become extraordinarily cheap. One study found that it was at least 200 times more affordable in 2000 than in 1900. Today, the U.S. spends only 2% of its GDP on electricity (super low number considering how much we rely on it). [70]
+                  </p>
+                  <h5>Fossil Fuels:</h5>
+                  <ul>
+                    <li>Cheap. Their prices don’t factor in the true cost of climate change (the economic damage they inflict by making the planet warmer), and this makes it harder for clean energy sources to compete with them. </li>
+                    <li>Some regions of the world don’t have decent renewable resources. To get close to 100% renewable, we’d have to move lots of clean energy from where it’s made. This would require building transmission lines (costly + time-consuming), especially for crossing national borders.</li>
+                    <ul>
+                      <li>More power lines we install, the more the price of power goes up.</li>
+                      <li>Transmission and distribution are responsible for more than 1⁄3 the final cost of electricity. (think of transmission as the freeway and distribution as the local road. We use high-voltage transmission lines to deliver electricity from the power plant to the city. Then, the electricity goes into the local, lower-voltage distribution system -- which are the power lines we see in our neighborhood.) </li>
+                    </ul>
+                  </ul>
+
+                  <h5>Solar & Wind:</h5>
+
                   <h3>3.2/ HOW WE MAKE THINGS</h3>
                   <h3>3.3/ AGRICULTURE</h3>
                   <h3>3.4/ TRANSPORTATION</h3>

@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monaco&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 @import url('./Styles.css');
 
 * {
@@ -19,7 +21,7 @@
   --glass-before:rgba(16, 15, 15, 0.146);
   --blur:hsla(0, 0%, 100%, 0.03);
   --idea-grey: #5F5C76;
-  --idea-grey-underline: #a2a2a2;
+  --idea-grey-underline: #e6e5e5;
   }
   
   *::after,*::before {

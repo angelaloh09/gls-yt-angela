@@ -25,7 +25,7 @@ const Navbar = () => {
                             <Close className='close' onClick={showUl}/>
                         </div>
                         <li  class="home__icon"><Link to= '/'><h1>angela loh</h1></Link></li>
-                        <li><Link to='/'>About Me</Link></li>
+                        <li><Link to='/aboutme'>About Me</Link></li>
                         <li><Link to='/bookshelf'>Bookshelf</Link></li>
                         <li><Link to='/thoughts'>Thoughts</Link></li>
                         <li><Link to='/scratchpad'>Scratchpad</Link></li>

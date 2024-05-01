@@ -15,6 +15,21 @@ const Thoughts = () => {
                 </div>
 
                 <div className={style.GridContainer}>
+                        <span>4.30.24</span>
+                        <span>What's the purpose of airplane mode? And what exaclty is it?</span>
+                </div>
+
+                <div className={style.GridContainer}>
+                        <span>4.30.24</span>
+                        <span>How to strengthen your immune system?</span>
+                </div>
+
+                <div className={style.GridContainer}>
+                        <span>4.30.24</span>
+                        <span>How does an induction stove work? And how does a gas stove work?</span>
+                </div>
+
+                <div className={style.GridContainer}>
                         <span>1.1.23</span>
                         <span>What is capacitive touch? And how does it work?</span>
                 </div>

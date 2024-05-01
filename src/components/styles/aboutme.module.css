@@ -1,0 +1,26 @@
+.PagePadding{
+  margin-left: auto;
+  margin-right: auto; 
+  max-width: min(800px, 90%);
+  margin-bottom: 50px;
+}
+
+.Writing{
+  font-family: Poppins;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--idea-grey);
+}
+
+.Writing ol, .Writing ul {
+  padding-left: 5%;
+}
+
+.Writing p {
+  /* padding-left: 1%; */
+  margin-bottom: 20px; /* Add extra space below each paragraph */
+}
+
+.Link { 
+  text-decoration-color: var(--idea-grey);
+}

@@ -14,7 +14,7 @@ const Home = () => {
                     <h1 className='content__header'>angela loh</h1>
                     <nav>
                         <ul>
-                            <li><Link to='/'>About Me</Link></li>
+                            <li><Link to='/aboutme'>About Me</Link></li>
                             <li><Link to='/bookshelf'>Bookshelf</Link></li>
                             <li><Link to='/thoughts'>Thoughts</Link></li>
                             <li><Link to='/scratchpad'>Scratchpad</Link></li>
