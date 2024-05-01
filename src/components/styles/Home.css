@@ -21,7 +21,7 @@
   --glass-before:rgba(16, 15, 15, 0.146);
   --blur:hsla(0, 0%, 100%, 0.03);
   --idea-grey: #5F5C76;
-  --idea-grey-underline: #e6e5e5;
+  --idea-grey-underline: #d0d0d0;
   }
   
   *::after,*::before {
