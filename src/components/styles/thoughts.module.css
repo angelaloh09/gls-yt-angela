@@ -1,3 +1,9 @@
+.Layout {
+  margin-left: 12.5%;
+  margin-right: 10%; 
+  max-width: min(800px, 90%);
+}
+
 .GridContainer {
   display: grid;
   grid-template-columns: 20% 80%;
@@ -7,9 +13,47 @@
   width: 100%;
   justify-items: left;
   margin-bottom: 2%;
+  text-decoration: none;
 }
 
 .GridContainer:hover{
   cursor: pointer;
   color: var(--main-purple);
 } 
+
+/* TODO: these are called out in the cap touch.js file. And are specific to that use case (only slides and no text below the slides.
+          betware of the margin-bottom to give some margin to the last bottom slide. */
+.CapTouchSlide{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+
+}
+
+.CapTouchImage{ 
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  border: 0.7px solid var(--main-purple);
+  border-radius: 10px;
+}
+
+.Writing{
+  font-family: Poppins;
+  font-size: 13px;
+  line-height: 1.5;
+  color: var(--idea-grey);
+}
+
+.Writing ol, .Writing ul {
+  padding-left: 5%;
+}
+
+.Writing p {
+  /* padding-left: 1%; */
+  margin-bottom: 20px; /* Add extra space below each paragraph */
+}

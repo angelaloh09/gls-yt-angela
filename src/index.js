@@ -7,6 +7,8 @@ import Home from './components/Home';
 import AboutMe from './components/AboutMe';
 import Scratchpad from './components/Scratchpad';
 import HowToAvoidAClimateDisaster from './components/books/HowToAvoidAClimateDisaster'; /* Make this more scalable*/
+import CapacitiveTouch from './components/thoughts/capacitive-touch';
+
 
 ReactDOM.render(
   <Router>
@@ -16,6 +18,7 @@ ReactDOM.render(
       <Route path='/bookshelf' element={<Bookshelf/>}/>
         <Route path='/bookshelf/how-to-avoid-a-climate-disaster' element={<HowToAvoidAClimateDisaster/>}/>
       <Route path='/thoughts' element={<Thoughts/>}/>
+        <Route path='/thoughts/capacitive-touch' element={<CapacitiveTouch/>}/>
       <Route path='/scratchpad' element={<Scratchpad/>}/>
     </Routes>
   </Router>,

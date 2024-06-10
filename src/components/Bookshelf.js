@@ -13,6 +13,12 @@ const Bookshelf = () => {
                     <h1>Bookshelf</h1>
                     <br></br>
                 </div>
+
+                <Link to= '/bookshelf/how-to-avoid-a-climate-disaster' class = {style.GridContainer}>
+                    <span>1.1.23</span>
+                    <span>How to Avoid a Climate Disaster</span>
+                    <span>Bill Gates</span>
+                </Link>
                 
                 <div class = {style.GridContainer}>
                     <span>1.1.23</span>
@@ -31,12 +37,6 @@ const Bookshelf = () => {
                     <span>The Idea Factory</span>
                     <span>Jon Gertner</span>
                 </div>
-
-                <Link to= '/bookshelf/how-to-avoid-a-climate-disaster' class = {style.GridContainer}>
-                    <span>1.1.23</span>
-                    <span>How to Avoid a Climate Disaster</span>
-                    <span>Bill Gates</span>
-                </Link>
 
                 <div class = {style.GridContainer}>
                     <span>1.1.23</span>

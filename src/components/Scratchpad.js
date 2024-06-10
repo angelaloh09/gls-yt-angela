@@ -22,6 +22,16 @@ const Scratchpad = () => {
                 <div>
                     <ul>
                         <li className={styles.GridContainer}>
+                            <span>Podcast</span>
+                            <a className={styles.Link} href= "https://open.spotify.com/episode/3sGqz3YYftu19SnVoBUUKd?si=_zFI0H_oSgmMjWeVKD62ww" target= "_blank" rel="noopener noreferrer"> Building Pyramids by 99% Invisible </a>
+                        </li>
+
+                        <li className={styles.GridContainer}>
+                            <span>Podcast</span>
+                            <a className={styles.Link} href= "https://open.spotify.com/episode/6rw9PjHgZ3RWOrTmWIumOS?si=WJxO8F3uREuk198ezDb5dg" target= "_blank" rel="noopener noreferrer"> La Sagrada Familia by 99% Invisible </a>
+                        </li>
+                        
+                        <li className={styles.GridContainer}>
                             <span>Music</span>
                             <a className={styles.Link} href= "https://open.spotify.com/album/02PXepuNHYKvGnXYy03oCp?autoplay=true" target= "_blank" rel="noopener noreferrer"> Bloom by Beach House </a>
                         </li>

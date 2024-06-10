@@ -23,6 +23,10 @@
   color: var(--idea-grey);
 }
 
+.SubHeading{
+  font-style: oblique;
+}
+
 .Writing ol, .Writing ul {
   padding-left: 5%;
 }

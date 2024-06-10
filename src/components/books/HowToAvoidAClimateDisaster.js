@@ -2,20 +2,7 @@ import React from 'react'
 import Navbar from '../Navbar'
 import '../styles/Styles.css'
 import style from '../styles/bookshelf.module.css'
-// import * as fs from 'fs'
-// import { readFileSync } from 'fs'
-// import marked from 'marked';
 
-
-
-// // // // Read the markdown file
-
-// // // // Parse the markdown content
-// const htmlContent = marked(markdownContent);
-// readFileSync('./markdown/HowToAvoidAClimateDisaster.md', 'utf8');
-
-
-// 
 
 const HowToAvoidAClimateDisaster = () => {
     return (
@@ -31,9 +18,9 @@ const HowToAvoidAClimateDisaster = () => {
                   <p>
                   This is one of the best books I’ve read in quite some time! Bill Gates does a really great job of describing the challenges our world will face if developed countries aren’t able to reach zero carbon emissions by 2050. He highlights action steps that need to be taken and technologies currently in development or that need to be invented in order to achieve this ambitious goal of carbon-zero. Bill Gates also is objectively a really great writer. Even the way he starts his book is quite memorable. He says, “There are two numbers you need to know about climate change. The first is 51 billion. The other is zero. Fifty-one billion is how many tons of greenhouse gases the world typically adds to the atmosphere every year...This is where we are today. Zero is what we need to aim for” (3). 51 billion tons serves as a goal of a quantity we want to reduce, and Gates shows us how we can do this. This book not only conveys the sense of urgency we should all feel about the looming issue of climate change, but Gates also instills in the readers a sense of optimism that we will be able to avoid a climate disaster if we take action -- in technology, policy, and our daily lives -- today.
                   </p>
-                  <h2>
-                  1/ WHY DO WE NEED TO REACH CARBON-ZERO BY 2050?
-                  </h2>
+                  <h3 class = {style.SubHeading}> 
+                  1. WHY DO WE NEED TO REACH CARBON-ZERO BY 2050?
+                  </h3>
                   <p>
                   Greenhouse gases absorb and trap heat, causing the average surface temperature of the earth to go up. (1/5th of CO2 emitted today will persist in the atmosphere for 10,000 years. [18]
                   They work the same way a greenhouse works. Example of a car sitting in the sun: windshield lets the sunlight in, then traps some of that energy. Thus why the car gets much hotter on the inside than the outside. [22, 23]
@@ -54,9 +41,9 @@ const HowToAvoidAClimateDisaster = () => {
                     </ol>
                   </p>
 
-                  <h2>
-                  2/ CURRENT STATE OF THE WORLD
-                  </h2>
+                  <h3 class = {style.SubHeading}>
+                  2. CURRENT STATE OF THE WORLD
+                  </h3>
                   <p>
                   Fossil Fuels are everywhere. They are so pervasive that it can be hard to grasp all the ways in which they touch our lives. Did you brush your teeth this morning? The toothbrush probably contains plastic, which is made from petroleum, a fossil fuel. If you ate breakfast, the grains in your cereal were grown with fertilizer, which releases greenhouse gases when it’s made. Take oil as just one example: The world uses more than 4 billion gallons every day. There’s a very good reason why fossil fuels are everywhere: They’re so inexpensive. Oil is cheaper than a soft drink.”
                   </p>
@@ -88,14 +75,13 @@ const HowToAvoidAClimateDisaster = () => {
 
 
 
-                  <h2>
-                  3/ THE BIG FIVE PILLARS
-                  </h2>
-                  <h3>3.1/ ELECTRICITY</h3>
-                  <h4>1/ Non Carbon-Free Energy Sources</h4>
-                  <h5>Hydropower</h5>
+                  <h3 class = {style.SubHeading}>
+                  3. THE BIG FIVE PILLARS
+                  </h3>
+                  <h4>ELECTRICITY</h4>
+                  <h4>Hydropower</h4>
                   <p>
-                      Hydropower: One of our early major sources of electricity was water (in the form of hydropower). Relatively cheap, but has some major downsides: [69]
+                      One of our early major sources of electricity was water (in the form of hydropower). Relatively cheap, but has some major downsides: [69]
                       <ul>
                           <li>Making a reservoir displaces local communities and wildlife.</li>
                           <li>When you cover land with water, if there’s a lot of carbon in the soil, the carbon eventually turns into methane and escapes into the atmosphere. Studies show that
@@ -120,11 +106,11 @@ const HowToAvoidAClimateDisaster = () => {
 
                   <h5>Solar & Wind:</h5>
 
-                  <h3>3.2/ HOW WE MAKE THINGS</h3>
-                  <h3>3.3/ AGRICULTURE</h3>
-                  <h3>3.4/ TRANSPORTATION</h3>
-                  <h3>3.5/ HEATING & COOLING</h3>
-                  <h3>3.6/ SUMMARY + OTHERS</h3>
+                  <h4>3.2/ HOW WE MAKE THINGS</h4>
+                  <h4>3.3/ AGRICULTURE</h4>
+                  <h4>3.4/ TRANSPORTATION</h4>
+                  <h4>3.5/ HEATING & COOLING</h4>
+                  <h4>3.6/ SUMMARY + OTHERS</h4>
 
 
                 </div>             
