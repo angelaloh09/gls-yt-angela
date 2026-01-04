@@ -1,3 +1,13 @@
+:root {
+    --warm-cobalt: #566DD0;
+    --warm-cobalt-hover: #6B82E0;
+}
+
+.navbar {
+    position: relative;
+    z-index: 100;
+}
+
 .home__icon h1{
     font-size:30px;
     color: var(--main-orange);
@@ -49,9 +59,14 @@
 
 .list__items li a {
     text-decoration: none;
-    color: var(--idea-grey);
+    color: var(--warm-cobalt);
     font-size: 17px;
     font-family: Righteous;
+    cursor: pointer;
+    pointer-events: auto;
+    display: inline-block;
+    position: relative;
+    z-index: 10;
 }
 
 .nav__links{
@@ -61,6 +76,8 @@
 
 .list__items li a:hover {
     text-decoration: underline;
+    text-decoration-color: var(--warm-cobalt-hover);
+    color: var(--warm-cobalt-hover);
 }
 
 /* @media (width: 50em){
