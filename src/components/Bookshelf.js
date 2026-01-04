@@ -2,7 +2,6 @@ import React from 'react'
 import Navbar from './Navbar'
 import './styles/Styles.css'
 import style from './styles/bookshelf.module.css'
-import { Link } from 'react-router-dom'
 
 const Bookshelf = () => {
     return (
@@ -14,11 +13,11 @@ const Bookshelf = () => {
                     <br></br>
                 </div>
 
-                <Link to= '/bookshelf/how-to-avoid-a-climate-disaster' class = {style.GridContainer}>
+                <div class = {style.GridContainer}>
                     <span>1.1.23</span>
                     <span>How to Avoid a Climate Disaster</span>
                     <span>Bill Gates</span>
-                </Link>
+                </div>
                 
                 <div class = {style.GridContainer}>
                     <span>1.1.23</span>

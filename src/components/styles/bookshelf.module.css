@@ -9,11 +9,6 @@
   justify-items: left;
   margin-bottom: 2%;
   text-decoration:none;
-}
-
-.GridContainer:hover{
-  cursor: pointer;
-  color: var(--main-purple);
 } 
 
 .Writing{
