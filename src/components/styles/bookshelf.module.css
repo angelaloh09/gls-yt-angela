@@ -1,6 +1,6 @@
 .GridContainer {
   display: grid;
-  grid-template-columns: 15% 67% 18%;
+  grid-template-columns: 80% 20%;
   grid-column-gap: 5px;
   color: var(--idea-grey);
   border-bottom: 0.5px dotted var(--idea-grey-underline);
@@ -9,6 +9,10 @@
   justify-items: left;
   margin-bottom: 2%;
   text-decoration:none;
+}
+
+.GridContainer span:nth-child(2) {
+  justify-self: end;
 } 
 
 .Writing{

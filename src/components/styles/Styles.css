@@ -27,6 +27,13 @@
   margin-top:3rem;
 }
 
+.cards h2 {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--idea-grey);
+}
+
 .cards h3 pre, span, a {
   font-family: Poppins;
   font-weight: 100;

@@ -12,39 +12,39 @@ const Bookshelf = () => {
                     <h1>Bookshelf</h1>
                     <br></br>
                 </div>
+                <div className="cards title">
+                    <h2>2025</h2>
+                </div>
+                <div className="cards title">
+                    <h2>2024</h2>
+                </div>
 
                 <div class = {style.GridContainer}>
-                    <span>1.1.23</span>
                     <span>How to Avoid a Climate Disaster</span>
                     <span>Bill Gates</span>
                 </div>
                 
                 <div class = {style.GridContainer}>
-                    <span>1.1.23</span>
                     <span>What You Are Looking For Is in the Library</span>
                     <span>Michiko Aoyama</span>
                 </div>
 
                 <div class = {style.GridContainer}>
-                    <span>1.1.23</span>
                     <span>Three Body Problem</span>
                     <span>Liu Cixin</span>
                 </div>
 
                 <div class = {style.GridContainer}>
-                    <span>1.1.23</span>
                     <span>The Idea Factory</span>
                     <span>Jon Gertner</span>
                 </div>
 
                 <div class = {style.GridContainer}>
-                    <span>1.1.23</span>
                     <span>Lean In</span>
                     <span>Sheryl Sandberg</span>
                 </div>
 
                 <div class = {style.GridContainer}>
-                    <span>1.1.23</span>
                     <span>Bad Blood</span>
                     <span>John Carreyrou</span>
                 </div>
