@@ -1,0 +1,54 @@
+.photoGalleryContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 1rem;
+}
+
+.photoGallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  padding-top: 2rem;
+  width: 100%;
+  align-items: center;
+}
+
+.photoItem {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: var(--img-back);
+}
+
+.photoItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.photoItem img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.photoItem:hover img {
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  .photoGallery {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .photoGallery {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+}
+
