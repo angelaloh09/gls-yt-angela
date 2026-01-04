@@ -27,7 +27,7 @@
         align-items: center;
     }
     nav li {
-        margin: 0 20px;
+        margin: 0 5px;
     }
     .home__icon {
         margin-right: auto;
@@ -39,7 +39,7 @@
         display: flex;
         padding-inline: 2rem;
         padding-block: 1.5rem;
-        gap: 3rem;
+        gap: 1rem;
         list-style: none;
         background: var(--blur);
         backdrop-filter: blur(.3rem);

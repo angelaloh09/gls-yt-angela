@@ -20,7 +20,7 @@ const Thoughts = () => {
                     <span>What is capacitive touch? And how does it work?</span>
                 </Link>
 
-                <div className={style.GridContainer}>
+                {/* <div className={style.GridContainer}>
                         <span>5.18.24</span>
                         <span>Significance of Schrodinger's cat</span>
                 </div>
@@ -43,7 +43,7 @@ const Thoughts = () => {
                 <div className={style.GridContainer}>
                     <span>1.1.23</span>
                     <span>The Brief History of Cellular Data.</span>
-                </div>
+                </div> */}
                 
             </div>
 

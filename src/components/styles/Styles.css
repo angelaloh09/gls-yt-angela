@@ -32,6 +32,7 @@
   font-weight: bold;
   font-size: 18px;
   color: var(--idea-grey);
+  margin-bottom: 1rem;
 }
 
 .cards h3 pre, span, a {

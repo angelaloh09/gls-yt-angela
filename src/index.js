@@ -6,6 +6,7 @@ import Thoughts from './components/Thoughts';
 import Home from './components/Home';
 import AboutMe from './components/AboutMe';
 import Scratchpad from './components/Scratchpad';
+import Photography from './components/Photography';
 import HowToAvoidAClimateDisaster from './components/books/HowToAvoidAClimateDisaster'; /* Make this more scalable*/
 import CapacitiveTouch from './components/thoughts/capacitive-touch';
 
@@ -19,6 +20,7 @@ ReactDOM.render(
         <Route path='/bookshelf/how-to-avoid-a-climate-disaster' element={<HowToAvoidAClimateDisaster/>}/>
       <Route path='/thoughts' element={<Thoughts/>}/>
         <Route path='/thoughts/capacitive-touch' element={<CapacitiveTouch/>}/>
+      <Route path='/photography' element={<Photography/>}/>
       <Route path='/scratchpad' element={<Scratchpad/>}/>
     </Routes>
   </Router>,
