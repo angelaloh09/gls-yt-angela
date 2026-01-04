@@ -19,10 +19,47 @@ const AboutMe = () => {
                     <p> I'm a hardware engineer who wants to make tinkering on fun projects accessible to all! I have a curiosity for making the world a better place, and I'm always looking for new ways to do so. 
                         I love learning about how things work. Here are some of the things I've worked on: </p>
                     <ul>
-                      <li> Robotic hands at Figure, a humanoid robotics company.</li>
-                      <li> Humane aipin's laser display</li>
-                      <li> Founded a team to create an automous beach roomba that collects macro+microplastics at Cornell.</li>
-                      <li> Shipped two cube satellites to space with the Cornell Space Systems Design Studio.</li>
+                      <li>
+                      <a
+                          href="https://www.youtube.com/watch?v=IlG3X8zRI2I"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={style.Link}
+                        >
+                        Robotic hands
+                      </a>
+                      &nbsp;at Figure, a humanoid robotics company.
+                      </li>
+                      <li>
+                        Humane AiPin's &nbsp;
+                        <a
+                          href="https://www.youtube.com/watch?v=9lNIwOOMVHk&t=177s"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={style.Link}
+                        >
+                          laser display
+                        </a>
+                      </li>
+                      <li> Founded a team to create an &nbsp; 
+                        <a
+                          href="https://www.cornellnexus.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={style.Link}
+                        >
+                          automous beach roomba
+                        </a> that collects macro+microplastics at Cornell.</li>
+                      <li> Shipped&nbsp;
+                        <a 
+                        href="https://www.spacecraftresearch.com/pan"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={style.Link}
+                        >
+                        two cube satellites
+                        </a>
+                        &nbsp;to space with the Cornell Space Systems Design Studio.</li>
                     </ul>
                     <br></br>
                     <p> More hobbyist projects:</p>

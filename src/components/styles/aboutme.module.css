@@ -22,5 +22,13 @@
 }
 
 .Link { 
-  text-decoration-color: var(--idea-grey);
+  color: var(--idea-grey);
+  text-decoration: underline;
+  text-decoration-color: var(--warm-cobalt);
+  transition: color 0.2s ease;
+}
+
+.Link:hover {
+  color: var(--warm-cobalt);
+  text-decoration-color: var(--warm-cobalt);
 }
