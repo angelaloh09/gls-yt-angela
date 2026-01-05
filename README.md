@@ -1,1 +1,1 @@
-my personal website - view it @ angelaloh.com! 
+my personal website - view it @ [angelaloh.com](angelaloh.com)
