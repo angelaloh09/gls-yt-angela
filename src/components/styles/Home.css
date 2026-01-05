@@ -17,14 +17,11 @@
   --slides-purple:#a49ed2; 
   --nav-border: #c6c6c6;
   --img-back:#FFF8E7;
-  --img-test:#FFF5E1;
 
-  --glass-white:rgba(106, 101, 101, 0.214),rgba(112, 107, 112, 0.344); 
-  --glass-secondary:rgb(87, 10, 94),rgb(143, 64, 50);
-  --glass-before:rgba(16, 15, 15, 0.146);
   --blur:hsla(0, 0%, 100%, 0.03);
   --idea-grey: #5F5C76;
   --idea-grey-underline: #6d6d6d;
+  --photo-caption-yellow: #FFF8E7;
   --warm-cobalt: #566DD0;
   --warm-cobalt-hover: #6B82E0;
   }

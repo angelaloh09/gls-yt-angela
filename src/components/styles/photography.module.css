@@ -83,25 +83,10 @@
 }
 
 .caption {
-  color: white;
+  color: var(--photo-caption-yellow);
   font-family: Poppins;
-  font-size: 14px;
+  font-size: 13px;
   margin-top: 15px;
   text-align: center;
   font-style: italic;
-}
-
-.closeButton {
-  position: absolute;
-  top: -40px;
-  right: 0;
-  font-size: 40px;
-  color: white;
-  cursor: pointer;
-  font-weight: 300;
-  transition: color 0.3s ease;
-}
-
-.closeButton:hover {
-  color: #ccc;
 }

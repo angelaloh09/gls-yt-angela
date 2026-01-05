@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Navbar from './Navbar'
 import './styles/Styles.css'
 import style from './styles/photography.module.css'
@@ -19,16 +19,16 @@ const Photography = () => {
     const [selectedPhoto, setSelectedPhoto] = useState(null)
 
     const photos = [
-        { src: photo1, alt: 'Photo 1', location: 'Location 1' },
-        { src: photo2, alt: 'Photo 2', location: 'Location 2' },
-        { src: photo3, alt: 'Photo 3', location: 'Location 3' },
-        { src: photo4, alt: 'Photo 4', location: 'Location 4' },
-        { src: photo5, alt: 'Photo 5', location: 'Location 5' },
-        { src: photo6, alt: 'Photo 6', location: 'Location 6' },
-        { src: photo7, alt: 'Photo 7', location: 'Location 7' },
-        { src: photo8, alt: 'Photo 8', location: 'Location 8' },
-        { src: photo9, alt: 'Photo 9', location: 'Location 9' },
-        { src: photo10, alt: 'Photo 10', location: 'Location 10' },
+        { src: photo1, alt: 'Photo 1', location: 'Grindelwald, Switzerland' },
+        { src: photo2, alt: 'Photo 2', location: 'Grindelwald, Switzerland' },
+        { src: photo3, alt: 'Photo 3', location: 'Page, Arizona' },
+        { src: photo4, alt: 'Photo 4', location: 'Point Arena, California' },
+        { src: photo5, alt: 'Photo 5', location: 'Shanghai, China' },
+        { src: photo6, alt: 'Photo 6', location: 'The Getty, Los Angeles' },
+        { src: photo7, alt: 'Photo 7', location: 'Grindelwald, Switzerland' },
+        { src: photo8, alt: 'Photo 8', location: 'Grindelwald, Switzerland' },
+        { src: photo9, alt: 'Photo 9', location: 'Grindelwald, Switzerland' },
+        { src: photo10, alt: 'Photo 10', location: 'Vitra Design Museum - Weil am Rhein, Germany' },
     ]
 
     const openLightbox = (photo) => {
@@ -38,6 +38,48 @@ const Photography = () => {
     const closeLightbox = () => {
         setSelectedPhoto(null)
     }
+
+    const goToNextPhoto = () => {
+        if (!selectedPhoto) return
+        const currentIndex = photos.findIndex(photo => photo.src === selectedPhoto.src)
+        const nextIndex = (currentIndex + 1) % photos.length
+        setSelectedPhoto(photos[nextIndex])
+    }
+
+    const goToPreviousPhoto = () => {
+        if (!selectedPhoto) return
+        const currentIndex = photos.findIndex(photo => photo.src === selectedPhoto.src)
+        const previousIndex = (currentIndex - 1 + photos.length) % photos.length
+        setSelectedPhoto(photos[previousIndex])
+    }
+
+    useEffect(() => {
+        const handleKeyDown = (e) => {
+            if (!selectedPhoto) return
+
+            switch(e.key) {
+                case 'ArrowRight':
+                case 'ArrowDown':
+                    e.preventDefault()
+                    goToNextPhoto()
+                    break
+                case 'ArrowLeft':
+                case 'ArrowUp':
+                    e.preventDefault()
+                    goToPreviousPhoto()
+                    break
+                case 'Escape':
+                    e.preventDefault()
+                    closeLightbox()
+                    break
+                default:
+                    break
+            }
+        }
+
+        window.addEventListener('keydown', handleKeyDown)
+        return () => window.removeEventListener('keydown', handleKeyDown)
+    }, [selectedPhoto])
 
     return (
         <section className='ideas'>
@@ -62,7 +104,6 @@ const Photography = () => {
             {selectedPhoto && (
                 <div className={style.lightbox} onClick={closeLightbox}>
                     <div className={style.lightboxContent} onClick={(e) => e.stopPropagation()}>
-                        <span className={style.closeButton} onClick={closeLightbox}>&times;</span>
                         <img src={selectedPhoto.src} alt={selectedPhoto.alt} />
                         {selectedPhoto.location && (
                             <p className={style.caption}>{selectedPhoto.location}</p>
