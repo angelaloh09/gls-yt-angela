@@ -20,13 +20,13 @@ const AboutMe = () => {
                         I love learning about how things work. Here are some of the things I've worked on: </p>
                     <ul>
                       <li>
-                      <a
-                          href="https://www.youtube.com/watch?v=IlG3X8zRI2I"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className={style.Link}
-                        >
-                        Robotic hands
+                     <a
+                         href="https://www.youtube.com/watch?v=IlG3X8zRI2I&t=9"
+                         target="_blank"
+                         rel="noopener noreferrer"
+                         className={style.Link}
+                       >
+                       Robotic hands
                       </a>
                       &nbsp;at Figure, a humanoid robotics company.
                       </li>

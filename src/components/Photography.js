@@ -14,21 +14,27 @@ import photo7 from './photos/IMG_mountain.JPG'
 import photo8 from './photos/4B4F2FE8-3EF9-40C3-B869-F89F1FB81DDA.jpg'
 import photo9 from './photos/E43CBFC1-692C-430E-897D-A92BC655F5B7.JPG'
 import photo10 from './photos/EE4E56DC-D417-4D16-8E7B-F598FC816308.jpg'
+import photo11 from './photos/DSCF3761.jpg'
+import photo12 from './photos/IMG_1562 2.jpg'
+import photo13 from './photos/IMG_8183.jpg'
+
 
 const Photography = () => {
     const [selectedPhoto, setSelectedPhoto] = useState(null)
 
     const photos = [
-        { src: photo1, alt: 'Photo 1', location: 'Grindelwald, Switzerland' },
-        { src: photo2, alt: 'Photo 2', location: 'Grindelwald, Switzerland' },
-        { src: photo3, alt: 'Photo 3', location: 'Page, Arizona' },
-        { src: photo4, alt: 'Photo 4', location: 'Point Arena, California' },
-        { src: photo5, alt: 'Photo 5', location: 'Shanghai, China' },
-        { src: photo6, alt: 'Photo 6', location: 'The Getty, Los Angeles' },
-        { src: photo7, alt: 'Photo 7', location: 'Grindelwald, Switzerland' },
         { src: photo8, alt: 'Photo 8', location: 'Grindelwald, Switzerland' },
+        { src: photo5, alt: 'Photo 5', location: 'Shanghai, China' },
+        { src: photo3, alt: 'Photo 3', location: 'Page, Arizona' },
+        { src: photo2, alt: 'Photo 2', location: 'Grindelwald, Switzerland' },
+        { src: photo7, alt: 'Photo 7', location: 'Grindelwald, Switzerland' },
+        { src: photo6, alt: 'Photo 6', location: 'The Getty, Los Angeles' },
+        { src: photo4, alt: 'Photo 4', location: 'Point Arena, California' },
+        { src: photo13, alt: 'Photo 13', location: 'Sea Ranch, California' },
         { src: photo9, alt: 'Photo 9', location: 'Grindelwald, Switzerland' },
         { src: photo10, alt: 'Photo 10', location: 'Vitra Design Museum - Weil am Rhein, Germany' },
+        { src: photo12, alt: 'Photo 12', location: 'Summer Solstace - Stonehenge, England' },
+        { src: photo11, alt: 'Photo 11', location: 'Chapultepec, Mexico City' },
     ]
 
     const openLightbox = (photo) => {
