@@ -53,6 +53,7 @@
     margin: 0rem 6rem;
     position: relative;
     min-height: 100vh;
+    justify-content: center;
 }
 
 @media (min-width:1000px) {
@@ -75,8 +76,8 @@
         width: 550px;
     }
     .content__header {
-        margin-left: 20%;
         font-size: 40px;
+        text-align: center;
         font-weight: lighter;
         color: var(--main-orange);
         text-transform: lowercase;
@@ -96,8 +97,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-right:20%;
     }
+    
     .home__content nav li{ 
         list-style: none;
         padding-inline: 1rem;
@@ -152,6 +153,7 @@
     .content__header {
         color: var(--main-orange);
         padding-bottom: 6px;
+        white-space: nowrap;
     }
 
     .home__content nav li{ 
