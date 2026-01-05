@@ -2,70 +2,100 @@ import React from 'react'
 import Navbar from './Navbar'
 import './styles/Styles.css'
 import style from './styles/aboutme.module.css'
-import { Link } from 'react-router-dom'
 
 const AboutMe = () => {
+    const professionalProjects = [
+        {
+            text: "at Figure, a humanoid robotics company.",
+            linkText: "Robotic hands",
+            url: "https://www.youtube.com/watch?v=IlG3X8zRI2I&t=9",
+            linkPosition: "start"
+        },
+        {
+            text: "Humane AiPin's",
+            linkText: "laser display",
+            url: "https://www.youtube.com/watch?v=9lNIwOOMVHk&t=177s",
+            linkPosition: "middle"
+        },
+        {
+            text: "Founded a team to create an",
+            linkText: "automous beach roomba",
+            url: "https://news.cornell.edu/stories/2022/12/students-design-robot-collect-microplastics-beaches",
+            additionalText: "that collects macro+microplastics at Cornell.",
+            linkPosition: "middle"
+        },
+        {
+            text: "Shipped",
+            linkText: "two cube satellites",
+            url: "https://www.spacecraftresearch.com/pan",
+            additionalText: "to space with the Cornell Space Systems Design Studio.",
+            linkPosition: "middle"
+        }
+    ];
+
+    const hobbyProjects = [
+        "3D Printed Lamp (i love aesthetic lamps with warm lighting)",
+        "Vimputer (a digital typewriter with vim interface and infinite battery life)"
+    ];
+
+    const renderProjectItem = (project, index) => {
+        if (project.linkPosition === "start") {
+            return (
+                <li key={index}>
+                    <a
+                        href={project.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={style.Link}
+                    >
+                        {project.linkText}
+                    </a>
+                    {" "}{project.text}
+                </li>
+            );
+        } else {
+            return (
+                <li key={index}>
+                    {project.text}{" "}
+                    <a
+                        href={project.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={style.Link}
+                    >
+                        {project.linkText}
+                    </a>
+                    {project.additionalText && <> {project.additionalText}</>}
+                </li>
+            );
+        }
+    };
+
     return (
         <section className='ideas'>
             <Navbar/>
-            <div class={style.PagePadding}>
+            <div className={style.PagePadding}>
                 <div className="cards title">
                     <h1>About Me</h1>
                     <br></br>
                 </div>
                 
-                <div class={style.Writing}>
-                    <p> Hi there! </p>
-                    <p> I'm a hardware engineer who wants to make tinkering on fun projects accessible to all! I have a curiosity for making the world a better place, and I'm always looking for new ways to do so. 
-                        I love learning about how things work. Here are some of the things I've worked on: </p>
+                <div className={style.Writing}>
+                    <p>Hi there!</p>
+                    <p>
+                        I'm a hardware engineer who wants to make tinkering on fun projects accessible to all! 
+                        I have a curiosity for making the world a better place, and I'm always looking for new ways to do so. 
+                        I love learning about how things work. Here are some of the things I've worked on:
+                    </p>
                     <ul>
-                      <li>
-                     <a
-                         href="https://www.youtube.com/watch?v=IlG3X8zRI2I&t=9"
-                         target="_blank"
-                         rel="noopener noreferrer"
-                         className={style.Link}
-                       >
-                       Robotic hands
-                      </a>
-                      &nbsp;at Figure, a humanoid robotics company.
-                      </li>
-                      <li>
-                        Humane AiPin's &nbsp;
-                        <a
-                          href="https://www.youtube.com/watch?v=9lNIwOOMVHk&t=177s"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className={style.Link}
-                        >
-                          laser display
-                        </a>
-                      </li>
-                      <li> Founded a team to create an &nbsp; 
-                        <a
-                          href="https://alumni.cornell.edu/article/angela-loh-23-is-engineering-for-impact/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className={style.Link}
-                        >
-                          automous beach roomba
-                        </a> that collects macro+microplastics at Cornell.</li>
-                      <li> Shipped&nbsp;
-                        <a 
-                        href="https://www.spacecraftresearch.com/pan"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className={style.Link}
-                        >
-                        two cube satellites
-                        </a>
-                        &nbsp;to space with the Cornell Space Systems Design Studio.</li>
+                        {professionalProjects.map(renderProjectItem)}
                     </ul>
                     <br></br>
-                    <p> More hobbyist projects:</p>
+                    <p>More hobbyist projects:</p>
                     <ul>
-                      <li> 3D Printed Lamp (i love aesthetic lamps with warm lighting)</li>
-                      <li> Vimputer (a digital typewriter with vim interface and infinite battery life)</li>
+                        {hobbyProjects.map((project, idx) => (
+                            <li key={idx}>{project}</li>
+                        ))}
                     </ul>
                 </div>
 
