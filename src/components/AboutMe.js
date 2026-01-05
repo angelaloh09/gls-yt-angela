@@ -43,7 +43,7 @@ const AboutMe = () => {
                       </li>
                       <li> Founded a team to create an &nbsp; 
                         <a
-                          href="https://www.cornellnexus.com/"
+                          href="https://alumni.cornell.edu/article/angela-loh-23-is-engineering-for-impact/"
                           target="_blank"
                           rel="noopener noreferrer"
                           className={style.Link}

@@ -13,6 +13,21 @@
 
 .GridContainer span:nth-child(2) {
   justify-self: end;
+}
+
+@media (max-width: 768px) {
+  .GridContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-row-gap: 5px;
+    align-items: start;
+  }
+
+  .GridContainer span:nth-child(2) {
+    justify-self: start;
+    font-style: italic;
+    opacity: 0.8;
+  }
 } 
 
 .Writing{
