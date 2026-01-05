@@ -3,7 +3,6 @@
   min-height: 100vh;
   background: var(--img-back);
   position: relative;
-  overflow: hidden;
 }
 
 .bookshelf {

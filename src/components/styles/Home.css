@@ -9,6 +9,21 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  html, body {
+    background: #FFF8E7;
+    min-height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #root {
+    min-height: 100vh;
+    background: #FFF8E7;
+  }
   
   :root {
   --main-black:#000000;
