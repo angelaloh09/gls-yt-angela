@@ -33,7 +33,7 @@ const Photography = () => {
         { src: photo13, alt: 'Photo 13', location: 'Sea Ranch, California' },
         { src: photo9, alt: 'Photo 9', location: 'Grindelwald, Switzerland' },
         { src: photo10, alt: 'Photo 10', location: 'Vitra Design Museum - Weil am Rhein, Germany' },
-        { src: photo12, alt: 'Photo 12', location: 'Summer Solstace - Stonehenge, England' },
+        { src: photo12, alt: 'Photo 12', location: 'Summer Solstice - Stonehenge, England' },
         { src: photo11, alt: 'Photo 11', location: 'Chapultepec, Mexico City' },
     ]
 
